@@ -1,0 +1,24 @@
+# Raw and processed data ARE committed (public Binance data, no licence limits).
+data/interim/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets (none are needed; never commit them)
+.env
+
+# OS / editor junk
+.DS_Store
+__MACOSX/
+._*
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

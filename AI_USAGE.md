@@ -11,3 +11,4 @@ say how you checked the output (re-ran it, compared with a hand calculation, rea
 | 2026-10-21 | Zhang Enhao | Claude | proposal PDF | Drafting the one-page proposal from the group's design | Read and approved by all members |
 | 2026-10-21 | Zhang Enhao | Claude Code | repository skeleton | Folders, module stubs, notebook headers, README and templates | Reviewed every file before pushing |
 | 2026-10-22 | Ma Tianjiao | Claude | src/classical.py | Drafting t_test_mean() and the variance-factor helpers | Compared t, p and CI with scipy.stats.ttest_1samp; ar1_t_coverage() reproduces the 97% / 89% values in the task pack |
+| 2026-10-23 | Zhang Enhao | Claude Code | review of A1, A2, B1 | Independent re-run of src/data.py, src/strategy.py, src/classical.py and notebook 01; look-ahead test (perturbing a day's close leaves that day's signal unchanged) | Numbers match the 10/21 trial run exactly; notebook 01 runs clean from a fresh kernel |
